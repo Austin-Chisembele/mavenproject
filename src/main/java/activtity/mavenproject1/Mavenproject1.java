@@ -13,6 +13,7 @@ int age;
 double salary,result;
 
 Scanner sc = new Scanner(System.in);
+System.out.println("======================= ");
 //prompt the user 
 System.out.print("enter the name:");
 name=sc.next();
@@ -25,6 +26,7 @@ salary=sc.nextDouble();
 result=salary*0.10;
 //displayinfo
 System.out.println("======================= ");
+System.out.println("============Output=========== ");
 System.out.println("name: "  + name);
 System.out.println("surname: "  + surname);
 System.out.println("age: " + age);
